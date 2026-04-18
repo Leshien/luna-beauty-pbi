@@ -4,7 +4,7 @@
 
 Projekt portfolio. Dane są w pełni syntetyczne — nazwy firm, marek i klientów są fikcyjne.
 
-![Dashboard — Przegląd](screenshots/01_przeglad.png)
+![Dashboard — Przegląd](01_przeglad.png)
 
 ---
 
@@ -43,19 +43,19 @@ Zarząd pyta: **czy nasz biznes jest naprawdę zdrowy?** Wyniki roczne pokazują
 
 KPI cards, trend przychodu vs COGS z linią marży, podział B2C/B2B, ranking kategorii i kanałów.
 
-![Przegląd](screenshots/01_przeglad.png)
+![Przegląd](01_przeglad.png)
 
 ### Strona 2 — Analiza kanałów i kategorii
 
 Waterfall (od przychodu brutto do EBITDA), tabela contribution margin per kanał z conditional formatting, scatter plot marża vs zwroty, struktura OpEx.
 
-![Analiza](screenshots/02_analiza.png)
+![Analiza](02_analiza.png)
 
 ### Strona 3 — Wnioski
 
 6 kart traffic-light z konkretną liczbą, oceną (czerwony/żółty/zielony) i rekomendacją.
 
-![Wnioski](screenshots/03_wnioski.png)
+![Wnioski](03_wnioski.png)
 
 ---
 
@@ -89,26 +89,6 @@ Kluczowe wyzwanie projektu: OpEx w źródle jest na poziomie miesięcznym, ale p
 - `Contribution Margin` — marża brutto minus prowizje, marketing kanału, obsługa zwrotów i alokowany OpEx wspólny
 - `Waterfall Wartość` — miara SWITCH z tabelą kroków, dająca waterfall od przychodu brutto do EBITDA
 - `Przychód netto MoM %` — time intelligence z DATEADD dla sparklines
-
----
-
-## Struktura projektu
-
-```
-luna-beauty-pbi/
-├── README.md
-├── Luna_Beauty.pbix                   # Plik Power BI Desktop
-├── data/
-│   └── Luna_Beauty_2024_dataset.xlsx  # Dataset syntetyczny (5 arkuszy)
-├── theme/
-│   └── Luna_Beauty_Theme.json         # Motyw Power BI (kremowe tło, paleta pastelowa)
-├── screenshots/
-│   ├── 01_przeglad.png
-│   ├── 02_analiza.png
-│   └── 03_wnioski.png
-└── docs/
-    └── Luna_Beauty_Case_Brief.pdf     # Opis case'u i pytania analityczne
-```
 
 ---
 
